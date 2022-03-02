@@ -1,0 +1,19 @@
+Started by GitHub push by sanjaysd24
+Running as SYSTEM
+Building remotely on [8mha:////4MvvuZg9nYfFisPH4Qob8Qq5xJRBjKU11/4QmCQiD2TOAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYe/eT83ILSktQi/TwjAGEy6vDBAAAA[0mn2 in workspace /home/ec2-user/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sanjaysd24/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/sanjaysd24/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/sanjaysd24/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3853267a2eb0db3de46facc1ec168606153ca157 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3853267a2eb0db3de46facc1ec168606153ca157 # timeout=10
+Commit message: "Create test5"
+ > git rev-list --no-walk f59810cae18db69bf32f3ca923f09abab0d6097f # timeout=10
+Finished: SUCCESS
